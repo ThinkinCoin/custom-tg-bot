@@ -1,7 +1,7 @@
 {
-  "name": "HardcoreUserbot",
-  "description": "Userbot created by a @Hack12R, Join https://t.me/HardcoreUserbot for any problems or support",
-  "logo": "https://telegra.ph/file/1b1304649ee3ecd281322.jpg",
+  "name": "Makiswap BOT",
+  "description": "Userbot created by a @ThinkinCoin, Join https://t.me/thinkincoin for any problems or support",
+  "logo": "none",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Hack12R/HardcoreUserbot/",
-  "website": "#TODO",
-  "success_url": "#TODO",
+  "repository": "https://github.com/ThinkinCoin/makiswap-bot/",
+  "website": "makiswap.com",
+  "success_url": "app.makiswap.com",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -19,16 +19,16 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./userbot/DOWNLOADS/",
+      "value": "./userbot/downloads/",
       "required": false
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "7154847"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "b6847777be497260207564551ff319fb"
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally",
@@ -52,7 +52,7 @@
     "PRIVATE_GROUP_ID": {
       "description": "Make a priavte group and put its ID here. helps in PMPermit and AFK.",
       "value": "",
-      "required": true
+      "required": false
     },
     "PRIVATE_GROUP_BOT_API_ID": {
       "description": "Make a priavte group and put its ID here. helps in PMPermit and AFK. Put Same Value Of PRIVATE_GROUP_ID Here",
@@ -66,8 +66,8 @@
     },
     "SUDO_USERS": {
       "description": "Makes your acc and bot stable",
-      "value": "1037944593",
-      "required": false
+      "value": "1197776016",
+      "required": true
     },
     "HEROKU_APP_NAME": {
       "description": "The Value of App Name you filled in right on top.Required for updater to work.",
@@ -76,8 +76,8 @@
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot.Worth it. Get it.",
-      "value": "",
-      "required": false
+      "value": "1959999716:AAHigsPwdSKo1andiqHhTkUhccwVF7wEFQA",
+      "required": true
     },
     "CHROME_BIN": {
       "description": "For Carbon.py. Leave as it is. ",
@@ -111,7 +111,7 @@
     }
   },
   "addons": [{
-    "plan": "heroku-postgresql",
+    "plan": "postgresql",
     "options": {
       "version": "9.5"
     }
