@@ -13,12 +13,12 @@ if ENV:
         # Send .get_id in any group to fill this value.
         PRIVATE_GROUP_BOT_API_ID = int(os.environ.get("PRIVATE_GROUP_BOT_API_ID", -100123456789))
         # Send .get_id in any channel to fill this value. ReQuired for @Manuel15 inspiration to work!
-        PRIVATE_CHANNEL_BOT_API_ID = int(os.environ.get("PRIVATE_CHANNEL_BOT_API_ID", -100123456789))
+        PRIVATE_CHANNEL_BOT_API_ID = int(os.environ.get("PRIVATE_CHANNEL_BOT_API_ID", ['-1001517742426','-1001245224603']))
         # This is required for the plugins involving the file system.
         TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
         # This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html
-        IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
-        IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
+        IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", 'mzfshark')
+        IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", 'Padrao123#')
         # This is required for the hash to torrent file functionality to work.
         HASH_TO_TORRENT_API = os.environ.get("HASH_TO_TORRENT_API", "https://example.com/torrent/{}");
         # This is required for the @telegraph functionality.
@@ -31,8 +31,8 @@ if ENV:
         GOOGLE_SEARCH_COUNT_LIMIT = int(os.environ.get("GOOGLE_SEARCH_COUNT_LIMIT", 9))
         TG_GLOBAL_ALBUM_LIMIT = int(os.environ.get("TG_GLOBAL_ALBUM_LIMIT", 9))
         # Telegram BOT Token from @BotFather
-        TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
-        TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
+        TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", '1959999716:AAHigsPwdSKo1andiqHhTkUhccwVF7wEFQA')
+        TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", 'mzfshark')
         #
         NO_SONGS = bool(os.environ.get("NO_SONGS", False))
         #
@@ -80,13 +80,13 @@ if ENV:
         # specify list of users allowed to use bot
         # WARNING: be careful who you grant access to your bot.
         # malicious users could do ".exec rm -rf /*"
-        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1037944593").split())
+        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1197776016").split())
         # VeryStream only supports video formats
         VERY_STREAM_LOGIN = os.environ.get("VERY_STREAM_LOGIN", None)
         VERY_STREAM_KEY = os.environ.get("VERY_STREAM_KEY", None)
         GROUP_REG_SED_EX_BOT_S = os.environ.get("GROUP_REG_SED_EX_BOT_S", r"(regex|moku|BananaButler_|rgx|l4mR)bot")
         TEMP_DIR = os.environ.get("TEMP_DIR", None)
-        CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
+        CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ['-1001517742426','-1001245224603']))
         #Google Chrome Stuff
         CHROME_DRIVER = os.environ.get("CHROME_DRIVER", "/app/.chromedriver/bin/chromedriver")
         GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", "/app/.apt/usr/bin/google-chrome")
@@ -108,5 +108,5 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API",None)
 else:
     class Config(object):
-        DB_URI = None
+        DB_URI = 'postgresql://makibot:Padrao123#@localhost:5432/makiswap'
         # Add your UniBorg Vars Here
