@@ -10,12 +10,12 @@ from telegram import ParseMode
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from tg_bot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS, BAN_STICKER
-from tg_bot.__main__ import GDPR
-from tg_bot.__main__ import STATS, USER_INFO
-from tg_bot.modules.disable import DisableAbleCommandHandler
-from tg_bot.modules.helper_funcs.extraction import extract_user
-from tg_bot.modules.helper_funcs.filters import CustomFilters
+from makibot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS, BAN_STICKER
+from makibot.__main__ import GDPR
+from makibot.__main__ import STATS, USER_INFO
+from makibot.modules.disable import DisableAbleCommandHandler
+from makibot.modules.helper_funcs.extraction import extract_user
+from makibot.modules.helper_funcs.filters import CustomFilters
 
 RUN_STRINGS = (
     "Where do you think you're going?",

@@ -9,16 +9,16 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, DispatcherHandlerStop, MessageHandler, Filters, CallbackQueryHandler
 from telegram.utils.helpers import mention_html
 
-from tg_bot import dispatcher, BAN_STICKER
-from tg_bot.modules.disable import DisableAbleCommandHandler
-from tg_bot.modules.helper_funcs.chat_status import is_user_admin, bot_admin, user_admin_no_reply, user_admin, \
+from makibot import dispatcher, BAN_STICKER
+from makibot.modules.disable import DisableAbleCommandHandler
+from makibot.modules.helper_funcs.chat_status import is_user_admin, bot_admin, user_admin_no_reply, user_admin, \
     can_restrict
-from tg_bot.modules.helper_funcs.extraction import extract_text, extract_user_and_text, extract_user
-from tg_bot.modules.helper_funcs.filters import CustomFilters
-from tg_bot.modules.helper_funcs.misc import split_message
-from tg_bot.modules.helper_funcs.string_handling import split_quotes
-from tg_bot.modules.log_channel import loggable
-from tg_bot.modules.sql import warns_sql as sql
+from makibot.modules.helper_funcs.extraction import extract_text, extract_user_and_text, extract_user
+from makibot.modules.helper_funcs.filters import CustomFilters
+from makibot.modules.helper_funcs.misc import split_message
+from makibot.modules.helper_funcs.string_handling import split_quotes
+from makibot.modules.log_channel import loggable
+from makibot.modules.sql import warns_sql as sql
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"
