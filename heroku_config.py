@@ -3,7 +3,7 @@ import os
 class Var(object):
     APP_ID = int(os.environ.get("APP_ID", 6))
     # 6 is a placeholder
-    API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    API_HASH = os.environ.get("API_HASH", "b6847777be497260207564551ff319fb")
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     DB_URI = os.environ.get("DATABASE_URL", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", None)
@@ -11,7 +11,7 @@ class Var(object):
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     # Here for later purposes
-    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1037944593").split())
+    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1197776016").split())
     LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     LESS_SPAMMY = os.environ.get("LESS_SPAMMY", None)
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
