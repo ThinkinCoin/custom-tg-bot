@@ -1,17 +1,11 @@
 ### WELCOME
-# FORK AT YOUR OWN RISK
+# FORK AT YOUR OWN USE
 # Installing
-Join https://t.me/HardcoreUserbot to know more !
-### The Easy Way
-
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-### The Normal Way
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/Hack12R/HardcoreUserbot
-cd HardcoreUserbot
+git clone https://github.com/ThinkinCoin/makiswap-bot
+cd makiswap-bot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
