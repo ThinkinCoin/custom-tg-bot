@@ -2,7 +2,7 @@
 #
 # Licensed under the Raphielscape Public License, Version 1.b (the "License");
 # you may not use this file except in compliance with the License.
-""" Userbot module containing various scrapers. """
+""" makibot module containing various scrapers. """
 import os
 import shutil
 from bs4 import BeautifulSoup
@@ -28,8 +28,8 @@ from googleapiclient.errors import HttpError
 from googletrans import LANGUAGES, Translator
 from gtts import gTTS
 from emoji import get_emoji_regexp
-from userbot import CMD_HELP, BOTLOG, BOTLOG_CHATID, YOUTUBE_API_KEY, CHROME_DRIVER, GOOGLE_CHROME_BIN
-from userbot.utils import register
+from makibot import CMD_HELP, BOTLOG, BOTLOG_CHATID, YOUTUBE_API_KEY, CHROME_DRIVER, GOOGLE_CHROME_BIN
+from makibot.utils import register
 
 
 CARBONLANG = "auto"

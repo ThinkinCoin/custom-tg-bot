@@ -3,14 +3,14 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" Userbot module containing commands related to android"""
+""" makibot module containing commands related to android"""
 
 import re
 from requests import get
 from bs4 import BeautifulSoup
 
-from userbot import CMD_HELP
-from userbot.utils import register
+from makibot import CMD_HELP
+from makibot.utils import register
 
 GITHUB = 'https://github.com'
 DEVICES_DATA = 'https://raw.githubusercontent.com/androidtrackers/' \

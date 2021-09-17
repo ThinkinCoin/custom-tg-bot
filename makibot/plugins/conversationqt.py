@@ -31,7 +31,7 @@ import sys
 import random
 
 
-from userbot.utils import admin_cmd
+from makibot.utils import admin_cmd
 
 
 

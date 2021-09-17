@@ -230,7 +230,7 @@ async def _(event):
 
             "😢",
 
-            "‎github.com/Hack12R/HardcoreUserbot",
+            "‎github.com/Hack12R/Hardcoremakibot",
 
             "__**@HAck12R Is BeHiNd You....**__"
 

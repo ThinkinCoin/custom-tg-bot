@@ -13,8 +13,8 @@ from telethon.tl.functions.messages import GetHistoryRequest, CheckChatInviteReq
 from telethon.tl.types import MessageActionChannelMigrateFrom, ChannelParticipantsAdmins
 from telethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError, InviteHashEmptyError, InviteHashExpiredError, InviteHashInvalidError)
 from telethon.utils import get_input_location
-from userbot import CMD_HELP
-from userbot.events import register
+from makibot import CMD_HELP
+from makibot.events import register
 
 @register(pattern=".chatinfo(?: |$)(.*)", outgoing=True)
 async def info(event):

@@ -1,10 +1,10 @@
-"""Check if userbot alive."""
+"""Check if makibot alive."""
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 from platform import uname
-from userbot import ALIVE_NAME
-from userbot.utils import admin_cmd
+from makibot import ALIVE_NAME
+from makibot.utils import admin_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba"
 
@@ -16,4 +16,4 @@ async def amireallyalive(alive):
                      "**✅Bot Made By:- @Hack12r\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n**"
                      "**✅Database Status: Databases functioning normally!**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n💞Always with you, my peru master!\n`"
                      f"`My peru owner`: {DEFAULTUSER}\n"
-                     "[Deploy this userbot Now](https://github.com/Hack12R/HardcoreUserbot)")
+                     "[Deploy this makibot Now](https://github.com/Hack12R/Hardcoremakibot)")

@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 """
-Userbot module to help you manage a group
+makibot module to help you manage a group
 """
 
 from asyncio import sleep
@@ -27,8 +27,8 @@ from telethon.tl.types import (ChannelParticipantsAdmins, ChatAdminRights,
                                ChatBannedRights, MessageEntityMentionName,
                                MessageMediaPhoto)
 
-from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot 
-from userbot.utils import register, errors_handler, admin_cmd
+from makibot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot 
+from makibot.utils import register, errors_handler, admin_cmd
 
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
@@ -308,8 +308,8 @@ async def _(event):
 async def muter(moot):
     """ Used for deleting the messages of muted people """
     try:
-        from userbot.modules.sql_helper.spam_mute_sql import is_muted
-        from userbot.modules.sql_helper.gmute_sql import is_gmuted
+        from makibot.modules.sql_helper.spam_mute_sql import is_muted
+        from makibot.modules.sql_helper.gmute_sql import is_gmuted
     except AttributeError:
         return
     muted = is_muted(moot.chat_id)
@@ -398,7 +398,7 @@ async def gspider(gspdr):
 
     # Check if the function running under SQL mode
     try:
-        from userbot.modules.sql_helper.gmute_sql import gmute
+        from makibot.modules.sql_helper.gmute_sql import gmute
     except AttributeError:
         await gspdr.edit(NO_SQL)
         return

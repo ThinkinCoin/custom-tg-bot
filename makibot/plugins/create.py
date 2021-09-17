@@ -1,8 +1,8 @@
 #this module original created by @spechide
 
 from telethon.tl import functions, types
-from userbot.events import register
-from userbot import CMD_HELP
+from makibot.events import register
+from makibot import CMD_HELP
 
 
 @register(outgoing=True, pattern="^.create (b|g|c)(?: |$)(.*)")
