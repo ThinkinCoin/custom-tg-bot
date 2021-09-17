@@ -8,7 +8,7 @@ import time
 async def install(event):
     if event.fwd_from:
         return
-    cmd = "ls makibot/plugins"
+    cmd = "ls userbot/plugins"
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
@@ -16,5 +16,7 @@ async def install(event):
     o = stdout.decode()
     _o = o.split("\n")
     o = "\n".join(_o)
-    OUTPUT = f"**LIST OF PLUGINS IN Hardcoremakibot 🔍:**\n{o}\n\n**TIP:** __If you want to know the commands for a plugin, do:-__ \n `.help <plugin name>` **without the < > brackets.**\n__All plugins might not work directly.__"
+    OUTPUT = f"**LIST OF PLUGINS IN HardcoreUserbot 🔍:**\n{o}\n
+    \n**TIP:** __If you want to know the commands for a plugin, do:-__ 
+    \n `.help <plugin name>` **without the < > brackets.**\n__All plugins might not work directly.__"
     await event.edit(OUTPUT)
