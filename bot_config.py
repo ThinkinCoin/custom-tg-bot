@@ -5,17 +5,14 @@ class Var(object):
     # 6 is a placeholder
     API_HASH = os.environ.get("API_HASH", "b6847777be497260207564551ff319fb")
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
-    DB_URI = os.environ.get("DATABASE_URL", postgresql://makibot:Padrao123#@localhost:5432/makiswap)
+    DB_URI = os.environ.get("DATABASE_URL", postgresql://morphbot:Padrao123#@localhost:5432/morpheus)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", None)
     LOGGER = True
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     # Here for later purposes
     SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1197776016").split())
-    LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
-    LESS_SPAMMY = os.environ.get("LESS_SPAMMY", None)
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+   
     TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
     TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
     NO_SONGS = bool(os.environ.get("NO_SONGS", False))
