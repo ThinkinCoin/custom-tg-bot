@@ -8,8 +8,8 @@ Available Commands:
 .snipd"""
 from telethon import events, utils
 from telethon.tl import types
-from makibot.plugins.sql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
-from makibot.utils import admin_cmd
+from custombot.plugins.sql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
+from custombot.utils import admin_cmd
 
 
 TYPE_TEXT = 0

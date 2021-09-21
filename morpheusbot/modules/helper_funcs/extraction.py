@@ -3,8 +3,8 @@ from typing import List, Optional
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
-from makibot import LOGGER
-from makibot.modules.users import get_user_id
+from morpheusbot import LOGGER
+from morpheusbot.modules.users import get_user_id
 
 
 def id_from_reply(message):

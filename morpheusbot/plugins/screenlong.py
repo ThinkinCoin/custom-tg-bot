@@ -6,7 +6,7 @@ import traceback
 from datetime import datetime
 from selenium import webdriver
 from telethon import events
-from makibot.utils import admin_cmd
+from custombot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("screenlong (.*)"))

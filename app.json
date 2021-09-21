@@ -1,25 +1,25 @@
 {
-  "name": "Makiswap BOT",
-  "description": "Userbot created by a @ThinkinCoin, Join https://t.me/thinkincoin for any problems or support",
+  "name": "Custom BOT",
+  "description": "Custombot created by a @ThinkinCoin, Join https://t.me/thinkincoin for any problems or support",
   "logo": "none",
   "keywords": [
     "telegram",
-    "userbot",
+    "custombot",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ThinkinCoin/makiswap-bot/",
-  "website": "makiswap.com",
-  "success_url": "app.makiswap.com",
+  "repository": "https://github.com/ThinkinCoin/custom-tg-bot/",
+  "website": "thinkincoin.com",
+  "success_url": "app.thinkincoin.com",
   "env": {
     "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
+      "description": "Setting this to ANYTHING will enable.",
       "value": "ANYTHING"
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./userbot/downloads/",
+      "value": "./custombot/downloads/",
       "required": false
     },
     "APP_ID": {

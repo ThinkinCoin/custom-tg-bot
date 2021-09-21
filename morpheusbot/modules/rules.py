@@ -6,10 +6,10 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown
 
-import makibot.modules.sql.rules_sql as sql
-from makibot import dispatcher
-from makibot.modules.helper_funcs.chat_status import user_admin
-from makibot.modules.helper_funcs.string_handling import markdown_parser
+import morpheusbot.modules.sql.rules_sql as sql
+from morpheusbot import dispatcher
+from morpheusbot.modules.helper_funcs.chat_status import user_admin
+from morpheusbot.modules.helper_funcs.string_handling import markdown_parser
 
 
 @run_async

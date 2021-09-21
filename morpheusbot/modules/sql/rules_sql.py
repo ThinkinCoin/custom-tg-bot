@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, func, distinct
 
-from makibot.modules.sql import SESSION, BASE
+from morpheusbot.modules.sql import SESSION, BASE
 
 
 class Rules(BASE):

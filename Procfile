@@ -1,1 +1,1 @@
-web: python3 -m tg_bot
+userbot: python -m userbot

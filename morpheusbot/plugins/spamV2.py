@@ -1,7 +1,7 @@
 import asyncio
 import time
 from asyncio import wait
-from makibot.utils import admin_cmd
+from custombot.utils import admin_cmd
 
 @borg.on(admin_cmd("tspam"))
 async def tmeme(e):

@@ -5,8 +5,8 @@ import telegram
 from telegram import Update, Bot
 from telegram.ext import run_async
 
-from makibot import dispatcher, LOGGER
-from makibot.modules.disable import DisableAbleRegexHandler
+from morpheusbot import dispatcher, LOGGER
+from morpheusbot.modules.disable import DisableAbleRegexHandler
 
 DELIMITERS = ("/", ":", "|", "_")
 

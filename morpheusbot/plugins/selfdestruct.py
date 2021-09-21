@@ -8,7 +8,7 @@
 import time
 
 from telethon.errors import rpcbaseerrors
-from makibot.utils import admin_cmd
+from custombot.utils import admin_cmd
 import importlib.util
 
 

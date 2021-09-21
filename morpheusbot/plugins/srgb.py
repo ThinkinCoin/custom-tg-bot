@@ -21,7 +21,7 @@ async def sticklet(event):
     # the text on which we would like to do the magic on
     sticktext = event.pattern_match.group(1)
 
-    # delete the makibot command,
+    # delete the custombot command,
     # i don't know why this is required
     await event.delete()
 
@@ -46,7 +46,7 @@ async def sticklet(event):
     draw.multiline_text(((512-width)/2,(512-height)/2), sticktext, font=font, fill=(R, G, B))
 
     image_stream = io.BytesIO()
-    image_stream.name = "Hardcoremakibot.webp"
+    image_stream.name = "Hardcorecustombot.webp"
     image.save(image_stream, "WebP")
     image_stream.seek(0)
 

@@ -2,7 +2,7 @@
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
-from makibot.utils import admin_cmd
+from custombot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("warn1"))

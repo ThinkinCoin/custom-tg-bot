@@ -4,10 +4,10 @@ from telegram import Message, Update, Bot, User
 from telegram import MessageEntity
 from telegram.ext import Filters, MessageHandler, run_async
 
-from makibot import dispatcher
-from makibot.modules.disable import DisableAbleCommandHandler, DisableAbleRegexHandler
-from makibot.modules.sql import afk_sql as sql
-from makibot.modules.users import get_user_id
+from morpheusbot import dispatcher
+from morpheusbot.modules.disable import DisableAbleCommandHandler, DisableAbleRegexHandler
+from morpheusbot.modules.sql import afk_sql as sql
+from morpheusbot.modules.users import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8

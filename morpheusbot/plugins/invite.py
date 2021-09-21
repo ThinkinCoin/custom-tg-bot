@@ -1,5 +1,5 @@
 from telethon import functions
-from userbot.events import register
+from custombot.events import register
 
 
 @register(outgoing=True, pattern="^.invite(?: |$)(.*)")

@@ -5,13 +5,13 @@
 #
 # You can find misc modules, which dont fit in anything xD
 
-""" Userbot module for other small commands. """
+""" custombot module for other small commands. """
 
 from random import randint
 from time import sleep
 
 
-from userbot.events import register
+from custombot.events import register
 
 
 @register(outgoing=True, pattern="^.random")
@@ -25,7 +25,7 @@ async def randomise(items):
 
 @register(outgoing=True, pattern="^.sleep( [0-9]+)?$")
 async def sleepybot(time):
-    """ For .sleep command, let the userbot snooze for a few second. """
+    """ For .sleep command, let the custombot snooze for a few second. """
     message = time.text
     if not message[0].isalpha() and message[0] not in ("/", "#", "@", "!"):
         if " " not in time.pattern_match.group(1):
@@ -47,6 +47,6 @@ async def sleepybot(time):
 async def bot_support(wannahelp):
     """ For .support command, just returns the group link. """
     if not wannahelp.text[0].isalpha() and wannahelp.text[0] not in ("/", "#", "@", "!"):
-        await wannahelp.edit("Link Portal: @userbot_support")
+        await wannahelp.edit("Link Portal: @custombot_support")
 
 

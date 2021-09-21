@@ -9,13 +9,13 @@ from telegram.ext import CommandHandler, MessageHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import makibot.modules.sql.locks_sql as sql
-from makibot import dispatcher, SUDO_USERS, LOGGER
-from makibot.modules.disable import DisableAbleCommandHandler
-from makibot.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
+import morpheusbot.modules.sql.locks_sql as sql
+from morpheusbot import dispatcher, SUDO_USERS, LOGGER
+from morpheusbot.modules.disable import DisableAbleCommandHandler
+from morpheusbot.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
     bot_can_delete, is_bot_admin
-from makibot.modules.log_channel import loggable
-from makibot.modules.sql import users_sql
+from morpheusbot.modules.log_channel import loggable
+from morpheusbot.modules.sql import users_sql
 
 LOCK_TYPES = {'sticker': Filters.sticker,
               'audio': Filters.audio,

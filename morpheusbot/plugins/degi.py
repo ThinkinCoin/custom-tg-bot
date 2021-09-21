@@ -1,4 +1,4 @@
-"""Fun pligon...for HardcoreUserbot
+"""Fun pligon...for Hardcorecustombot
 \nCode by @Hack12R
 type `.degi` and `.nehi` to see the fun.
 """

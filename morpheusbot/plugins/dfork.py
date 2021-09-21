@@ -31,16 +31,16 @@ async def _(event):
             "`Your bot is running\n\nTelethon version:` 6.9.0\n`Python:` 3.7.3\n`User:` @Hack12R\n`Database Status: Databases functioning normally!`",
             "`Connecting To github.com...`",
             "`Deleting This Repo....`",
-            "`Forking HardcoreUserbot... 0%\n\n⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 0 MiB / 108.7 MiB`",
-            "`Forking HardcoreUserbot... 4%\n\n⬛️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 22 MiB / 108.7 MiB`",
-            "`Forking HardcoreUserbot... 8%\n\n⬛️⬛️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 48 MiB / 108.7 MiB`",    
-            "`Forking HardcoreUserbot... 20%\n\n⬛️⬛️⬛️⬛️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 55 MiB / 108.7 MiB`",
-            "`Forking HardcoreUserbot... 36%\n\n⬛️⬛️⬛️⬛️⬛️⬛️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 60 MiB / 108.7 MiB `",
-            "`Forking HardcoreUserbot... 52%\n\n⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 90.7 MiB / 108.7 MiB `",
-            "`Forking HardcoreUserbot... 84%\n\n⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬜️⬜️\n\nFile Size: 100.7 MiB / 108.7 MiB `",
-            "`Forking HardcoreUserbot... 100%\n\n⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️\n\nFile Size: 108.7 MiB / 108.7 MiB\n\nTask Completed... `",
-            "`Fork Deploying...`\n\n@HardcoreUserbot ( `Custom Built By` @Hack12R ) \n`Verified Account:` ☑️\n[GCC 7.4.0]\n`Telethon` `Loading...`\n\n`Custom Built Fork:` `Loading...`",
-            "`Fork Deployed...`\n\n@HardcoreUserbot ( `Custom Built By` @Hack12R ) \n`Verified Account:` ✅\n\n`Python` 3.7.4 (default, March 27 2019, 01:19:52)\n[GCC 7.4.0]\n`Telethon` 1.9.0\n\n`Custom Built Fork:` https://github.com/Hack12R/HardcoreUserbot"
+            "`Forking Hardcorecustombot... 0%\n\n⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 0 MiB / 108.7 MiB`",
+            "`Forking Hardcorecustombot... 4%\n\n⬛️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 22 MiB / 108.7 MiB`",
+            "`Forking Hardcorecustombot... 8%\n\n⬛️⬛️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 48 MiB / 108.7 MiB`",    
+            "`Forking Hardcorecustombot... 20%\n\n⬛️⬛️⬛️⬛️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 55 MiB / 108.7 MiB`",
+            "`Forking Hardcorecustombot... 36%\n\n⬛️⬛️⬛️⬛️⬛️⬛️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 60 MiB / 108.7 MiB `",
+            "`Forking Hardcorecustombot... 52%\n\n⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬜️⬜️⬜️⬜️⬜️\n\nFile Size: 90.7 MiB / 108.7 MiB `",
+            "`Forking Hardcorecustombot... 84%\n\n⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬜️⬜️\n\nFile Size: 100.7 MiB / 108.7 MiB `",
+            "`Forking Hardcorecustombot... 100%\n\n⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️⬛️\n\nFile Size: 108.7 MiB / 108.7 MiB\n\nTask Completed... `",
+            "`Fork Deploying...`\n\n@Hardcorecustombot ( `Custom Built By` @Hack12R ) \n`Verified Account:` ☑️\n[GCC 7.4.0]\n`Telethon` `Loading...`\n\n`Custom Built Fork:` `Loading...`",
+            "`Fork Deployed...`\n\n@Hardcorecustombot ( `Custom Built By` @Hack12R ) \n`Verified Account:` ✅\n\n`Python` 3.7.4 (default, March 27 2019, 01:19:52)\n[GCC 7.4.0]\n`Telethon` 1.9.0\n\n`Custom Built Fork:` https://github.com/Hack12R/Hardcorecustombot"
         ]
 
         for i in animation_ttl:

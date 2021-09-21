@@ -3,7 +3,7 @@ from typing import Union
 
 from sqlalchemy import Column, Integer, String, Boolean
 
-from makibot.modules.sql import SESSION, BASE
+from morpheusbot.modules.sql import SESSION, BASE
 
 
 class ReportingUserSettings(BASE):

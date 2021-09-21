@@ -3,7 +3,7 @@ import threading
 from sqlalchemy import Integer, Column, String, UnicodeText, func, distinct, Boolean
 from sqlalchemy.dialects import postgresql
 
-from makibot.modules.sql import SESSION, BASE
+from morpheusbot.modules.sql import SESSION, BASE
 
 
 class Warns(BASE):

@@ -1,6 +1,6 @@
 import asyncio, subprocess
 import time, re, io
-from userbot import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
+from custombot import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
 from telethon import events, functions, types
 from telethon.events import StopPropagation
 from telethon.tl.functions.messages import ExportChatInviteRequest
@@ -8,8 +8,8 @@ from telethon.tl.functions.contacts import BlockRequest
 from telethon.tl.functions.channels import LeaveChannelRequest, CreateChannelRequest, DeleteMessagesRequest
 from collections import deque
 from telethon.tl.functions.users import GetFullUserRequest
-from userbot.events import register
-from userbot.utils import admin_cmd
+from custombot.events import register
+from custombot.utils import admin_cmd
 
 @borg.on(admin_cmd("leave$"))
 async def leave(e):
@@ -65,13 +65,13 @@ async def _(event):
 #@register(outgoing=True, pattern="^.source$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/Hack12R/HardcoreUserbot")
+        await e.edit("https://github.com/Hack12R/Hardcorecustombot")
 
 @borg.on(admin_cmd("readme$"))
 #@register(outgoing=True, pattern="^.readme$")
 async def reedme(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/Hack12R/HardcoreUserbot/blob/master/README.md")
+        await e.edit("https://github.com/Hack12R/Hardcorecustombot/blob/master/README.md")
 
 
 
@@ -132,7 +132,7 @@ CMD_HELP.update({
     "readme": "Reedme."
 })
 CMD_HELP.update({
-    "source": "Gives the source of your userbot"
+    "source": "Gives the source of your custombot"
 })
 CMD_HELP.update({
     "myusernames": "List of Usernames owned by you."

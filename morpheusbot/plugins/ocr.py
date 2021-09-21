@@ -7,8 +7,8 @@ from telethon import events
 import os
 import requests
 import logging
-from userbot import bot, OCR_SPACE_API_KEY, CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from userbot.utils import register
+from custombot import bot, OCR_SPACE_API_KEY, CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from custombot.utils import register
 
 
 async def ocr_space_file(filename,

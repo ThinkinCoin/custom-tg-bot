@@ -1,4 +1,4 @@
-from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
+from custombot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
 
 @command(outgoing=True, pattern=r"^.mute ?(\d+)?", allow_sudo=True)
@@ -74,7 +74,7 @@ async def watcher(event):
     if is_muted(event.sender_id, event.chat_id):
         await event.delete()
 
-from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
+from custombot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
 
 @command(outgoing=True, pattern=r"^.mute ?(\d+)?")

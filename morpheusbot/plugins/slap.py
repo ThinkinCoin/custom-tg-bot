@@ -1,5 +1,5 @@
 """
-SLAP Plugin For makibot
+SLAP Plugin For custombot
 usage:- .slap in reply to any message, or u gonna slap urself.
 
 """

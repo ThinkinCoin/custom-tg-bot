@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, String
 
-from makibot.modules.sql import BASE, SESSION
+from morpheusbot.modules.sql import BASE, SESSION
 
 DEF_COUNT = 0
 DEF_LIMIT = 0

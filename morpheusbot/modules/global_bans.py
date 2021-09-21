@@ -7,13 +7,13 @@ from telegram.error import BadRequest, TelegramError
 from telegram.ext import run_async, CommandHandler, MessageHandler, Filters
 from telegram.utils.helpers import mention_html
 
-import makibot.modules.sql.global_bans_sql as sql
-from makibot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, STRICT_GBAN
-from makibot.modules.helper_funcs.chat_status import user_admin, is_user_admin
-from makibot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from makibot.modules.helper_funcs.filters import CustomFilters
-from makibot.modules.helper_funcs.misc import send_to_list
-from makibot.modules.sql.users_sql import get_all_chats
+import morpheusbot.modules.sql.global_bans_sql as sql
+from morpheusbot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, STRICT_GBAN
+from morpheusbot.modules.helper_funcs.chat_status import user_admin, is_user_admin
+from morpheusbot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from morpheusbot.modules.helper_funcs.filters import CustomFilters
+from morpheusbot.modules.helper_funcs.misc import send_to_list
+from morpheusbot.modules.sql.users_sql import get_all_chats
 
 GBAN_ENFORCE_GROUP = 6
 

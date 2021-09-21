@@ -8,7 +8,7 @@ from telethon import events
 
 import asyncio
 
-from makibot.utils import admin_cmd
+from custombot.utils import admin_cmd
 
 @borg.on(admin_cmd("(.*)"))
 async def _(event):

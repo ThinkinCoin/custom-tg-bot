@@ -6,12 +6,12 @@ from telegram import Message, Chat, Update, Bot, ParseMode
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 
-import makibot.modules.sql.blacklist_sql as sql
-from makibot import dispatcher, LOGGER
-from makibot.modules.disable import DisableAbleCommandHandler
-from makibot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from makibot.modules.helper_funcs.extraction import extract_text
-from makibot.modules.helper_funcs.misc import split_message
+import morpheusbot.modules.sql.blacklist_sql as sql
+from morpheusbot import dispatcher, LOGGER
+from morpheusbot.modules.disable import DisableAbleCommandHandler
+from morpheusbot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from morpheusbot.modules.helper_funcs.extraction import extract_text
+from morpheusbot.modules.helper_funcs.misc import split_message
 
 BLACKLIST_GROUP = 11
 

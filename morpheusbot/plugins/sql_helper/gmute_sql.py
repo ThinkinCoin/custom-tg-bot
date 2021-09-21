@@ -1,6 +1,6 @@
 # code of raphielgang and paperplane
 try:
-    from userbot.plugins.sql_helper import SESSION, BASE
+    from custombot.plugins.sql_helper import SESSION, BASE
 except ImportError:
     raise Exception("Hello!")
 
