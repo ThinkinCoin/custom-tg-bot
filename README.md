@@ -4,13 +4,13 @@
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/ThinkinCoin/custom-tg-bot
+git clone https://github.com/ThinkinCoin/custom-tg-bot -b mazikeen
 cd custom-tg-bot
-virtualenv -p /usr/bin/python3 morpheus-bot
-. ./morpheus-bot/bin/activate
+virtualenv -p /usr/bin/python3 mazikeenbot
+. ./mazikeenbot/bin/activate
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m morpheus
+python3 -m mazikeenbot
 ```
 Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older python versions! This is because markdown parsing is done by iterating through a dict, which are ordered by default in 3.6.
@@ -84,13 +84,13 @@ sudo su - postgres
  ```
 create a new database user (change YOUR_USER appropriately):
  ```sh
-createuser -P -s -e YOUR_USER
+createuser -P -s -e mazikeen
  ```
 This will be followed by you needing to input your password.
 
 create a new database table:
  ```sh
-createdb -O YOUR_USER YOUR_DB_NAME
+createdb -O mazikeen mazi_db
  ```
 Change YOUR_USER and YOUR_DB_NAME appropriately.
 
@@ -101,7 +101,7 @@ psql YOUR_DB_NAME -h YOUR_HOST YOUR_USER
 This will allow you to connect to your database via your terminal. By default, YOUR_HOST should be 0.0.0.0:5432.
 You should now be able to build your database URI. This will be:
 
-sqldbtype://username:pw@hostname:port/db_name
+sqldbtype://mazikeen:pwd@hostname:port/mazi_db
 
 Replace sqldbtype with whichever db youre using (eg postgres, mysql, sqllite, etc) repeat for your username, password, hostname (localhost?), port (5432?), and db name.
 
