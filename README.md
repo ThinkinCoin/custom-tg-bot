@@ -4,13 +4,13 @@
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/ThinkinCoin/makiswap-bot
-cd makiswap-bot
-virtualenv -p /usr/bin/python3 venv
-. ./venv/bin/activate
+git clone https://github.com/ThinkinCoin/custom-tg-bot
+cd custom-tg-bot
+virtualenv -p /usr/bin/python3 morpheus-bot
+. ./morpheus-bot/bin/activate
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m userbot
+python3 -m morpheus
 ```
 
 An example `local_config.py` file could be:
@@ -29,5 +29,5 @@ class Development(Var):
 
 ### UniBorg Configuration
 
-The UniBorg Config is situated in `userbot/uniborgConfig.py`.
+The UniBorg Config is situated in `morpheus/uniborgConfig.py`.
 
