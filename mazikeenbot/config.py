@@ -3,7 +3,7 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = '1908729993:AAE1gEkSuZfr87YlImGppFnWJsPLx7Mjts0'
+    API_KEY = '1910971982:AAE2E2VeCMA03fZCI8T-zaCYi9YFy9n0ueY'
     OWNER_ID = "1197776016"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "mzfshark"
 
