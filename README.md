@@ -6,11 +6,11 @@ Simply clone the repository and run the main file:
 ```sh
 git clone https://github.com/ThinkinCoin/custom-tg-bot
 cd custom-tg-bot
-virtualenv -p /usr/bin/python3 morpheus-bot
-. ./morpheus-bot/bin/activate
+virtualenv -p /usr/bin/python3 morpheusbot
+source ./morpheusbot/bin/activate
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m morpheus
+python3 -m morpheusbot
 ```
 Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older python versions! This is because markdown parsing is done by iterating through a dict, which are ordered by default in 3.6.
