@@ -9,13 +9,13 @@ from telegram.ext import CommandHandler, MessageHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import morpheusbot.modules.sql.locks_sql as sql
-from morpheusbot import dispatcher, SUDO_USERS, LOGGER
-from morpheusbot.modules.disable import DisableAbleCommandHandler
-from morpheusbot.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
+import mazikeenbot.modules.sql.locks_sql as sql
+from mazikeenbot import dispatcher, SUDO_USERS, LOGGER
+from mazikeenbot.modules.disable import DisableAbleCommandHandler
+from mazikeenbot.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
     bot_can_delete, is_bot_admin
-from morpheusbot.modules.log_channel import loggable
-from morpheusbot.modules.sql import users_sql
+from mazikeenbot.modules.log_channel import loggable
+from mazikeenbot.modules.sql import users_sql
 
 LOCK_TYPES = {'sticker': Filters.sticker,
               'audio': Filters.audio,

@@ -10,12 +10,12 @@ from telegram import ParseMode
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from morpheusbot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS, BAN_STICKER
-from morpheusbot.__main__ import GDPR
-from morpheusbot.__main__ import STATS, USER_INFO
-from morpheusbot.modules.disable import DisableAbleCommandHandler
-from morpheusbot.modules.helper_funcs.extraction import extract_user
-from morpheusbot.modules.helper_funcs.filters import CustomFilters
+from mazikeenbot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS, BAN_STICKER
+from mazikeenbot.__main__ import GDPR
+from mazikeenbot.__main__ import STATS, USER_INFO
+from mazikeenbot.modules.disable import DisableAbleCommandHandler
+from mazikeenbot.modules.helper_funcs.extraction import extract_user
+from mazikeenbot.modules.helper_funcs.filters import CustomFilters
 
 RUN_STRINGS = (
     "Where do you think you're going?",
@@ -330,7 +330,7 @@ def gdpr(bot: Bot, update: Update):
         mod.__gdpr__(update.effective_user.id)
 
     update.effective_message.reply_text("Your personal data has been deleted.\n\nNote that this will not unban "
-                                        "you from any chats, as that is telegram data, not morpheusbot data. "
+                                        "you from any chats, as that is telegram data, not mazikeenbot data. "
                                         "Flooding, warns, and gbans are also preserved, as of "
                                         "[this](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-erasure/), "
                                         "which clearly states that the right to erasure does not apply "

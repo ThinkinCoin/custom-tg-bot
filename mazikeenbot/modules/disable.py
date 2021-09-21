@@ -5,18 +5,18 @@ from telegram import ParseMode, Update, Bot, Chat, User
 from telegram.ext import CommandHandler, RegexHandler, Filters
 from telegram.utils.helpers import escape_markdown
 
-from morpheusbot import dispatcher
-from morpheusbot.modules.helper_funcs.handlers import CMD_STARTERS
-from morpheusbot.modules.helper_funcs.misc import is_module_loaded
+from mazikeenbot import dispatcher
+from mazikeenbot.modules.helper_funcs.handlers import CMD_STARTERS
+from mazikeenbot.modules.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
-    from morpheusbot.modules.helper_funcs.chat_status import user_admin, is_user_admin
+    from mazikeenbot.modules.helper_funcs.chat_status import user_admin, is_user_admin
     from telegram.ext.dispatcher import run_async
 
-    from morpheusbot.modules.sql import disable_sql as sql
+    from mazikeenbot.modules.sql import disable_sql as sql
 
     DISABLE_CMDS = []
     DISABLE_OTHER = []

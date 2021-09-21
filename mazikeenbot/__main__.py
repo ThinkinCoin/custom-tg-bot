@@ -10,13 +10,13 @@ from telegram.ext import CommandHandler, Filters, MessageHandler, CallbackQueryH
 from telegram.ext.dispatcher import run_async, DispatcherHandlerStop, Dispatcher
 from telegram.utils.helpers import escape_markdown
 
-from morpheusbot import dispatcher, updater, TOKEN, WEBHOOK, OWNER_ID, DONATION_LINK, CERT_PATH, PORT, URL, LOGGER, \
+from mazikeenbot import dispatcher, updater, TOKEN, WEBHOOK, OWNER_ID, DONATION_LINK, CERT_PATH, PORT, URL, LOGGER, \
     ALLOW_EXCL
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from morpheusbot.modules import ALL_MODULES
-from morpheusbot.modules.helper_funcs.chat_status import is_user_admin
-from morpheusbot.modules.helper_funcs.misc import paginate_modules
+from mazikeenbot.modules import ALL_MODULES
+from mazikeenbot.modules.helper_funcs.chat_status import is_user_admin
+from mazikeenbot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
@@ -69,7 +69,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("morpheusbot.modules." + module_name)
+    imported_module = importlib.import_module("mazikeenbot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 

@@ -5,9 +5,9 @@ from feedparser import parse
 from telegram import ParseMode, constants
 from telegram.ext import CommandHandler
 
-from morpheusbot import dispatcher, updater
-from morpheusbot.modules.helper_funcs.chat_status import user_admin
-from morpheusbot.modules.sql import rss_sql as sql
+from mazikeenbot import dispatcher, updater
+from mazikeenbot.modules.helper_funcs.chat_status import user_admin
+from mazikeenbot.modules.sql import rss_sql as sql
 
 
 def show_url(bot, update, args):

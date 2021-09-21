@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, Integer, UnicodeText, String, ForeignKey, UniqueConstraint, func
 
-from morpheusbot import dispatcher
-from morpheusbot.modules.sql import BASE, SESSION
+from mazikeenbot import dispatcher
+from mazikeenbot.modules.sql import BASE, SESSION
 
 
 class Users(BASE):

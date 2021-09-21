@@ -6,10 +6,10 @@ from telegram import ParseMode, MAX_MESSAGE_LENGTH
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown
 
-import morpheusbot.modules.sql.userinfo_sql as sql
-from morpheusbot import dispatcher, SUDO_USERS
-from morpheusbot.modules.disable import DisableAbleCommandHandler
-from morpheusbot.modules.helper_funcs.extraction import extract_user
+import mazikeenbot.modules.sql.userinfo_sql as sql
+from mazikeenbot import dispatcher, SUDO_USERS
+from mazikeenbot.modules.disable import DisableAbleCommandHandler
+from mazikeenbot.modules.helper_funcs.extraction import extract_user
 
 
 @run_async

@@ -8,9 +8,9 @@ from telegram.error import BadRequest
 from telegram.ext import MessageHandler, Filters, CommandHandler
 from telegram.ext.dispatcher import run_async
 
-import morpheusbot.modules.sql.users_sql as sql
-from morpheusbot import dispatcher, OWNER_ID, LOGGER
-from morpheusbot.modules.helper_funcs.filters import CustomFilters
+import mazikeenbot.modules.sql.users_sql as sql
+from mazikeenbot import dispatcher, OWNER_ID, LOGGER
+from mazikeenbot.modules.helper_funcs.filters import CustomFilters
 
 USERS_GROUP = 4
 

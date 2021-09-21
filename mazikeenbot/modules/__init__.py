@@ -1,4 +1,4 @@
-from morpheusbot import LOAD, NO_LOAD, LOGGER
+from mazikeenbot import LOAD, NO_LOAD, LOGGER
 
 
 def __list_all_modules():

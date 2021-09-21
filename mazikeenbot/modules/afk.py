@@ -4,10 +4,10 @@ from telegram import Message, Update, Bot, User
 from telegram import MessageEntity
 from telegram.ext import Filters, MessageHandler, run_async
 
-from morpheusbot import dispatcher
-from morpheusbot.modules.disable import DisableAbleCommandHandler, DisableAbleRegexHandler
-from morpheusbot.modules.sql import afk_sql as sql
-from morpheusbot.modules.users import get_user_id
+from mazikeenbot import dispatcher
+from mazikeenbot.modules.disable import DisableAbleCommandHandler, DisableAbleRegexHandler
+from mazikeenbot.modules.sql import afk_sql as sql
+from mazikeenbot.modules.users import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8

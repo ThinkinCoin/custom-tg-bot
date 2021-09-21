@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, BigInteger
 
-from morpheusbot.modules.helper_funcs.msg_types import Types
-from morpheusbot.modules.sql import SESSION, BASE
+from mazikeenbot.modules.helper_funcs.msg_types import Types
+from mazikeenbot.modules.sql import SESSION, BASE
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing ya!"

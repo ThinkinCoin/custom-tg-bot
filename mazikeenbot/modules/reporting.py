@@ -6,10 +6,10 @@ from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, RegexHandler, run_async, Filters
 from telegram.utils.helpers import mention_html
 
-from morpheusbot import dispatcher, LOGGER
-from morpheusbot.modules.helper_funcs.chat_status import user_not_admin, user_admin
-from morpheusbot.modules.log_channel import loggable
-from morpheusbot.modules.sql import reporting_sql as sql
+from mazikeenbot import dispatcher, LOGGER
+from mazikeenbot.modules.helper_funcs.chat_status import user_not_admin, user_admin
+from mazikeenbot.modules.log_channel import loggable
+from mazikeenbot.modules.sql import reporting_sql as sql
 
 REPORT_GROUP = 5
 

@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, UnicodeText, Integer, String, Boolean
 
-from morpheusbot.modules.sql import BASE, SESSION
+from mazikeenbot.modules.sql import BASE, SESSION
 
 
 class GloballyBannedUsers(BASE):

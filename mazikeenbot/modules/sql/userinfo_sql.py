@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, UnicodeText
 
-from morpheusbot.modules.sql import SESSION, BASE
+from mazikeenbot.modules.sql import SESSION, BASE
 
 
 class UserInfo(BASE):

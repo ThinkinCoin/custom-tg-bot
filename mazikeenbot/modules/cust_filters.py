@@ -8,14 +8,14 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-from morpheusbot import dispatcher, LOGGER
-from morpheusbot.modules.disable import DisableAbleCommandHandler
-from morpheusbot.modules.helper_funcs.chat_status import user_admin
-from morpheusbot.modules.helper_funcs.extraction import extract_text
-from morpheusbot.modules.helper_funcs.filters import CustomFilters
-from morpheusbot.modules.helper_funcs.misc import build_keyboard
-from morpheusbot.modules.helper_funcs.string_handling import split_quotes, button_markdown_parser
-from morpheusbot.modules.sql import cust_filters_sql as sql
+from mazikeenbot import dispatcher, LOGGER
+from mazikeenbot.modules.disable import DisableAbleCommandHandler
+from mazikeenbot.modules.helper_funcs.chat_status import user_admin
+from mazikeenbot.modules.helper_funcs.extraction import extract_text
+from mazikeenbot.modules.helper_funcs.filters import CustomFilters
+from mazikeenbot.modules.helper_funcs.misc import build_keyboard
+from mazikeenbot.modules.helper_funcs.string_handling import split_quotes, button_markdown_parser
+from mazikeenbot.modules.sql import cust_filters_sql as sql
 
 HANDLER_GROUP = 10
 BASIC_FILTER_STRING = "*Filters in this chat:*\n"

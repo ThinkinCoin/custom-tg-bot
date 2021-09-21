@@ -6,10 +6,10 @@ from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from morpheusbot import dispatcher
-from morpheusbot.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
-from morpheusbot.modules.log_channel import loggable
-from morpheusbot.modules.sql import antiflood_sql as sql
+from mazikeenbot import dispatcher
+from mazikeenbot.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
+from mazikeenbot.modules.log_channel import loggable
+from mazikeenbot.modules.sql import antiflood_sql as sql
 
 FLOOD_GROUP = 3
 
