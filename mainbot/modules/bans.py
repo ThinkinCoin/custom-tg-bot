@@ -6,13 +6,13 @@ from telegram.error import BadRequest
 from telegram.ext import run_async, CommandHandler, Filters
 from telegram.utils.helpers import mention_html
 
-from makibot import dispatcher, BAN_STICKER, LOGGER
-from makibot.modules.disable import DisableAbleCommandHandler
-from makibot.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_ban_protected, can_restrict, \
+from custombot import dispatcher, BAN_STICKER, LOGGER
+from custombot.modules.disable import DisableAbleCommandHandler
+from custombot.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_ban_protected, can_restrict, \
     is_user_admin, is_user_in_chat
-from makibot.modules.helper_funcs.extraction import extract_user_and_text
-from makibot.modules.helper_funcs.string_handling import extract_time
-from makibot.modules.log_channel import loggable
+from custombot.modules.helper_funcs.extraction import extract_user_and_text
+from custombot.modules.helper_funcs.string_handling import extract_time
+from custombot.modules.log_channel import loggable
 
 
 @run_async

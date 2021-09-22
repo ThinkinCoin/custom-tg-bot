@@ -3,8 +3,8 @@ import threading
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, func, distinct
 
-from makibot.modules.helper_funcs.msg_types import Types
-from makibot.modules.sql import SESSION, BASE
+from custombot.modules.helper_funcs.msg_types import Types
+from custombot.modules.sql import SESSION, BASE
 
 
 class Notes(BASE):

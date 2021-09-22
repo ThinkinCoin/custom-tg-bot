@@ -59,7 +59,7 @@ if ENV:
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
 
 else:
-    from makibot.config import Development as Config
+    from custombot.config import Development as Config
     TOKEN = Config.API_KEY
     try:
         OWNER_ID = int(Config.OWNER_ID)
@@ -112,7 +112,7 @@ WHITELIST_USERS = list(WHITELIST_USERS)
 SUPPORT_USERS = list(SUPPORT_USERS)
 
 # Load at end to ensure all prev variables have been set
-from makibot.modules.helper_funcs.handlers import CustomCommandHandler, CustomRegexHandler
+from custombot.modules.helper_funcs.handlers import CustomCommandHandler, CustomRegexHandler
 
 # make sure the regex handler can take extra kwargs
 tg.RegexHandler = CustomRegexHandler

@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from makibot.modules.sql import SESSION, BASE
+from custombot.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):

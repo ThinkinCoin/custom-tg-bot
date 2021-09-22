@@ -5,9 +5,9 @@ from feedparser import parse
 from telegram import ParseMode, constants
 from telegram.ext import CommandHandler
 
-from makibot import dispatcher, updater
-from makibot.modules.helper_funcs.chat_status import user_admin
-from makibot.modules.sql import rss_sql as sql
+from custombot import dispatcher, updater
+from custombot.modules.helper_funcs.chat_status import user_admin
+from custombot.modules.sql import rss_sql as sql
 
 
 def show_url(bot, update, args):

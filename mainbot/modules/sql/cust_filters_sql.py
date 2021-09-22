@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func
 
-from makibot.modules.sql import BASE, SESSION
+from custombot.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):

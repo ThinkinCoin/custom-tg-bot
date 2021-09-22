@@ -8,9 +8,9 @@ from telegram.error import BadRequest
 from telegram.ext import MessageHandler, Filters, CommandHandler
 from telegram.ext.dispatcher import run_async
 
-import makibot.modules.sql.users_sql as sql
-from makibot import dispatcher, OWNER_ID, LOGGER
-from makibot.modules.helper_funcs.filters import CustomFilters
+import custombot.modules.sql.users_sql as sql
+from custombot import dispatcher, OWNER_ID, LOGGER
+from custombot.modules.helper_funcs.filters import CustomFilters
 
 USERS_GROUP = 4
 
