@@ -9,7 +9,7 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgresql://makibot:Padrao123#@localhost:5432/makibd'  # needed for any database modules
-    MESSAGE_DUMP = ['-1001517742426','-1001245224603']  # needed to make sure 'save from' messages persist
+    MESSAGE_DUMP = ['*']  # needed to make sure 'save from' messages persist
     LOAD = [ ]
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
     # and killed the bot. Be careful re-enabling it!
@@ -18,8 +18,8 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = [1197776016]  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = [1197776016]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    SUDO_USERS = [1197776016,968130082]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = [1197776016,968130082]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     WHITELIST_USERS = [1197776016]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
