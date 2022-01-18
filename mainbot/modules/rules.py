@@ -6,10 +6,10 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown
 
-import custombot.modules.sql.rules_sql as sql
-from custombot import dispatcher
-from custombot.modules.helper_funcs.chat_status import user_admin
-from custombot.modules.helper_funcs.string_handling import markdown_parser
+import defightbot.modules.sql.rules_sql as sql
+from defightbot import dispatcher
+from defightbot.modules.helper_funcs.chat_status import user_admin
+from defightbot.modules.helper_funcs.string_handling import markdown_parser
 
 
 @run_async

@@ -9,16 +9,16 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, DispatcherHandlerStop, MessageHandler, Filters, CallbackQueryHandler
 from telegram.utils.helpers import mention_html
 
-from custombot import dispatcher, BAN_STICKER
-from custombot.modules.disable import DisableAbleCommandHandler
-from custombot.modules.helper_funcs.chat_status import is_user_admin, bot_admin, user_admin_no_reply, user_admin, \
+from defightbot import dispatcher, BAN_STICKER
+from defightbot.modules.disable import DisableAbleCommandHandler
+from defightbot.modules.helper_funcs.chat_status import is_user_admin, bot_admin, user_admin_no_reply, user_admin, \
     can_restrict
-from custombot.modules.helper_funcs.extraction import extract_text, extract_user_and_text, extract_user
-from custombot.modules.helper_funcs.filters import CustomFilters
-from custombot.modules.helper_funcs.misc import split_message
-from custombot.modules.helper_funcs.string_handling import split_quotes
-from custombot.modules.log_channel import loggable
-from custombot.modules.sql import warns_sql as sql
+from defightbot.modules.helper_funcs.extraction import extract_text, extract_user_and_text, extract_user
+from defightbot.modules.helper_funcs.filters import CustomFilters
+from defightbot.modules.helper_funcs.misc import split_message
+from defightbot.modules.helper_funcs.string_handling import split_quotes
+from defightbot.modules.log_channel import loggable
+from defightbot.modules.sql import warns_sql as sql
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"

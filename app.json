@@ -1,10 +1,10 @@
 {
   "name": "Custom BOT",
-  "description": "Custombot created by a @ThinkinCoin, Join https://t.me/thinkincoin for any problems or support",
+  "description": "defightbot created by a @ThinkinCoin, Join https://t.me/thinkincoin for any problems or support",
   "logo": "none",
   "keywords": [
     "telegram",
-    "custombot",
+    "defightbot",
     "plugin",
     "modular",
     "productivity"
@@ -19,7 +19,7 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./custombot/downloads/",
+      "value": "./defightbot/downloads/",
       "required": false
     },
     "APP_ID": {

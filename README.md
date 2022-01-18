@@ -7,11 +7,11 @@ Simply clone the repository and run the main file:
 
 git clone https://github.com/ThinkinCoin/custom-tg-bot
 cd custom-tg-bot
-virtualenv -p /usr/bin/python3 morpheusbot
-source ./morpheusbot/bin/activate
+virtualenv -p /usr/bin/python3 defightbot
+source ./defightbot/bin/activate
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m morpheusbot
+python3 -m defightbot
 
 ```
 Setting up the bot (Read this before trying to use!):
@@ -20,13 +20,13 @@ Please make sure to use python3.6, as I cannot guarantee everything will work as
 Configuration
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
-The prefered version is to use a config.py file, as it makes it easier to see all your settings grouped together. This file should be placed in your custombot folder, alongside the __main__.py file . This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of your other settings.
+The prefered version is to use a config.py file, as it makes it easier to see all your settings grouped together. This file should be placed in your defightbot folder, alongside the __main__.py file . This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of your other settings.
 
 It is recommended to import sample_config and extend the Config class, as this will ensure your config contains all defaults set in the sample_config, hence making it easier to upgrade.
 
 An example config.py file could be:
 
-from custombot.sample_config import Config
+from defightbot.sample_config import Config
 
 ```sh
 class Development(Config):
@@ -127,7 +127,7 @@ Creating a module has been simplified as much as possible - but do not hesitate 
 All that is needed is that your .py file be in the modules folder.
 To add commands, make sure to import the dispatcher via
 
-from custombot import dispatcher.
+from defightbot import dispatcher.
 
 You can then add commands using the usual
 

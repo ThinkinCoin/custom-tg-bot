@@ -7,9 +7,9 @@ from telegram.ext import CommandHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-from custombot import dispatcher, LOGGER
-from custombot.modules.helper_funcs.chat_status import user_admin, can_delete
-from custombot.modules.log_channel import loggable
+from defightbot import dispatcher, LOGGER
+from defightbot.modules.helper_funcs.chat_status import user_admin, can_delete
+from defightbot.modules.log_channel import loggable
 
 
 @run_async

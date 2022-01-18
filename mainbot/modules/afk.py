@@ -4,10 +4,10 @@ from telegram import Message, Update, Bot, User
 from telegram import MessageEntity
 from telegram.ext import Filters, MessageHandler, run_async
 
-from custombot import dispatcher
-from custombot.modules.disable import DisableAbleCommandHandler, DisableAbleRegexHandler
-from custombot.modules.sql import afk_sql as sql
-from custombot.modules.users import get_user_id
+from defightbot import dispatcher
+from defightbot.modules.disable import DisableAbleCommandHandler, DisableAbleRegexHandler
+from defightbot.modules.sql import afk_sql as sql
+from defightbot.modules.users import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8

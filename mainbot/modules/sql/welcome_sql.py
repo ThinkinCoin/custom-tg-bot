@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, BigInteger
 
-from custombot.modules.helper_funcs.msg_types import Types
-from custombot.modules.sql import SESSION, BASE
+from defightbot.modules.helper_funcs.msg_types import Types
+from defightbot.modules.sql import SESSION, BASE
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing ya!"

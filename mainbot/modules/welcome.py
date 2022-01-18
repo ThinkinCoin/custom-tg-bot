@@ -7,14 +7,14 @@ from telegram.error import BadRequest
 from telegram.ext import MessageHandler, Filters, CommandHandler, run_async
 from telegram.utils.helpers import mention_markdown, mention_html, escape_markdown
 
-import custombot.modules.sql.welcome_sql as sql
-from custombot import dispatcher, OWNER_ID, LOGGER
-from custombot.modules.helper_funcs.chat_status import user_admin
-from custombot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from custombot.modules.helper_funcs.msg_types import get_welcome_type
-from custombot.modules.helper_funcs.string_handling import markdown_parser, \
+import defightbot.modules.sql.welcome_sql as sql
+from defightbot import dispatcher, OWNER_ID, LOGGER
+from defightbot.modules.helper_funcs.chat_status import user_admin
+from defightbot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from defightbot.modules.helper_funcs.msg_types import get_welcome_type
+from defightbot.modules.helper_funcs.string_handling import markdown_parser, \
     escape_invalid_curly_brackets
-from custombot.modules.log_channel import loggable
+from defightbot.modules.log_channel import loggable
 
 VALID_WELCOME_FORMATTERS = ['first', 'last', 'fullname', 'username', 'id', 'count', 'chatname', 'mention']
 

@@ -8,7 +8,7 @@ class Config(object):
     OWNER_USERNAME = "mzfshark"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgresql://custombot:Padrao123#@localhost:5432/makibd'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://defightbot:Padrao123#@localhost:5432/makibd'  # needed for any database modules
     MESSAGE_DUMP = ['-1001517742426','-1001245224603']  # needed to make sure 'save from' messages persist
     LOAD = [ ]
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage

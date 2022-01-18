@@ -9,13 +9,13 @@ from telegram.ext import CommandHandler, MessageHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import custombot.modules.sql.locks_sql as sql
-from custombot import dispatcher, SUDO_USERS, LOGGER
-from custombot.modules.disable import DisableAbleCommandHandler
-from custombot.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
+import defightbot.modules.sql.locks_sql as sql
+from defightbot import dispatcher, SUDO_USERS, LOGGER
+from defightbot.modules.disable import DisableAbleCommandHandler
+from defightbot.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
     bot_can_delete, is_bot_admin
-from custombot.modules.log_channel import loggable
-from custombot.modules.sql import users_sql
+from defightbot.modules.log_channel import loggable
+from defightbot.modules.sql import users_sql
 
 LOCK_TYPES = {'sticker': Filters.sticker,
               'audio': Filters.audio,

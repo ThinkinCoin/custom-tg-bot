@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, UnicodeText, Boolean, Integer
 
-from custombot.modules.sql import BASE, SESSION
+from defightbot.modules.sql import BASE, SESSION
 
 
 class AFK(BASE):

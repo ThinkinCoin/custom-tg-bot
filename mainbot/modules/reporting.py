@@ -6,10 +6,10 @@ from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, RegexHandler, run_async, Filters
 from telegram.utils.helpers import mention_html
 
-from custombot import dispatcher, LOGGER
-from custombot.modules.helper_funcs.chat_status import user_not_admin, user_admin
-from custombot.modules.log_channel import loggable
-from custombot.modules.sql import reporting_sql as sql
+from defightbot import dispatcher, LOGGER
+from defightbot.modules.helper_funcs.chat_status import user_not_admin, user_admin
+from defightbot.modules.log_channel import loggable
+from defightbot.modules.sql import reporting_sql as sql
 
 REPORT_GROUP = 5
 
