@@ -3,13 +3,13 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = '1908729993:AAE1gEkSuZfr87YlImGppFnWJsPLx7Mjts0'
+    API_KEY = '5064224906:AAFBOZ6uqVLaFy-CaqeQ6pUJgM6as2zJNfc'
     OWNER_ID = "1197776016"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "mzfshark"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgresql://morpheus:Padrao123#@localhost:5432/morph_db'  # needed for any database modules
-    MESSAGE_DUMP = ['-1001517742426','-1001245224603']  # needed to make sure 'save from' messages persist
+    SQLALCHEMY_DATABASE_URI = 'mysql://defightbot:wADfEd9vfkguzhHl@104.198.222.198:5432/defight_db'  # needed for any database modules
+    MESSAGE_DUMP = ['-1001789233935']  # needed to make sure 'save from' messages persist
     LOAD = [ ]
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
     # and killed the bot. Be careful re-enabling it!
