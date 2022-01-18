@@ -8,7 +8,7 @@ class Config(object):
     OWNER_USERNAME = "mzfshark"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'mysql://defightbot:wADfEd9vfkguzhHl@104.198.222.198:5432/defight_db'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://defightbot:wADfEd9vfkguzhHl@104.198.222.198:5432/defight_db'.format(user='defightbot', password='wADfEd9vfkguzhHl', server='104.198.222.198', database='defight_db')  # needed for any database modules
     MESSAGE_DUMP = ['-1001789233935']  # needed to make sure 'save from' messages persist
     LOAD = [ ]
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
