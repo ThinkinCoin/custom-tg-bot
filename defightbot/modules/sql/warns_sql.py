@@ -3,7 +3,7 @@ import threading
 from sqlalchemy import Integer, Column, String, UnicodeText, func, distinct, Boolean
 from sqlalchemy.dialects import postgresql
 
-from morpheusbot.modules.sql import SESSION, BASE
+from defightbot.modules.sql import SESSION, BASE
 
 
 class Warns(BASE):

@@ -9,12 +9,12 @@ from telegram.ext import CommandHandler, RegexHandler
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown
 
-import morpheusbot.modules.sql.notes_sql as sql
-from morpheusbot import dispatcher, MESSAGE_DUMP, LOGGER
-from morpheusbot.modules.disable import DisableAbleCommandHandler
-from morpheusbot.modules.helper_funcs.chat_status import user_admin
-from morpheusbot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from morpheusbot.modules.helper_funcs.msg_types import get_note_type
+import defightbot.modules.sql.notes_sql as sql
+from defightbot import dispatcher, MESSAGE_DUMP, LOGGER
+from defightbot.modules.disable import DisableAbleCommandHandler
+from defightbot.modules.helper_funcs.chat_status import user_admin
+from defightbot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from defightbot.modules.helper_funcs.msg_types import get_note_type
 
 FILE_MATCHER = re.compile(r"^###file_id(!photo)?###:(.*?)(?:\s|$)")
 

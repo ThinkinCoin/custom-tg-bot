@@ -6,13 +6,13 @@ from telegram.error import BadRequest
 from telegram.ext import run_async, CommandHandler, Filters
 from telegram.utils.helpers import mention_html
 
-from morpheusbot import dispatcher, BAN_STICKER, LOGGER
-from morpheusbot.modules.disable import DisableAbleCommandHandler
-from morpheusbot.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_ban_protected, can_restrict, \
+from defightbot import dispatcher, BAN_STICKER, LOGGER
+from defightbot.modules.disable import DisableAbleCommandHandler
+from defightbot.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_ban_protected, can_restrict, \
     is_user_admin, is_user_in_chat
-from morpheusbot.modules.helper_funcs.extraction import extract_user_and_text
-from morpheusbot.modules.helper_funcs.string_handling import extract_time
-from morpheusbot.modules.log_channel import loggable
+from defightbot.modules.helper_funcs.extraction import extract_user_and_text
+from defightbot.modules.helper_funcs.string_handling import extract_time
+from defightbot.modules.log_channel import loggable
 
 
 @run_async

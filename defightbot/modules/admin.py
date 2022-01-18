@@ -8,11 +8,11 @@ from telegram.ext import CommandHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from morpheusbot import dispatcher
-from morpheusbot.modules.disable import DisableAbleCommandHandler
-from morpheusbot.modules.helper_funcs.chat_status import bot_admin, can_promote, user_admin, can_pin
-from morpheusbot.modules.helper_funcs.extraction import extract_user
-from morpheusbot.modules.log_channel import loggable
+from defightbot import dispatcher
+from defightbot.modules.disable import DisableAbleCommandHandler
+from defightbot.modules.helper_funcs.chat_status import bot_admin, can_promote, user_admin, can_pin
+from defightbot.modules.helper_funcs.extraction import extract_user
+from defightbot.modules.log_channel import loggable
 
 
 @run_async

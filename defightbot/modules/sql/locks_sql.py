@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from morpheusbot.modules.sql import SESSION, BASE
+from defightbot.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
