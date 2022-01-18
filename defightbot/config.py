@@ -19,8 +19,8 @@ class Config(object):
 
     # OPTIONAL
     SUDO_USERS = [1197776016]  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = [1197776016]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = [1197776016]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUPPORT_USERS = ['1197776016','1747656989','1846761465','1074099080','1387271353']  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = ['1747656989','1846761465','1074099080','1387271353']  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
