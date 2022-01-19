@@ -7,11 +7,11 @@ Simply clone the repository and run the main file:
 
 git clone https://github.com/ThinkinCoin/custom-tg-bot
 cd custom-tg-bot
-virtualenv -p /usr/bin/python3 morpheusbot
-source ./morpheusbot/bin/activate
+virtualenv -p /usr/bin/python3 makibot
+source ./makibot/bin/activate
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m morpheusbot
+python3 -m makibot
 
 ```
 Setting up the bot (Read this before trying to use!):
@@ -87,7 +87,7 @@ sudo su - postgres
 create a new database user (change YOUR_USER appropriately):
  ```sh
 
-createuser -P -s -e morpheus
+createuser -P -s -e makibot
 
  ```
 This will be followed by you needing to input your password.
@@ -142,4 +142,4 @@ The __stats__() function is for retrieving module statistics, eg number of users
 
 ### UniBorg Configuration
 
-The UniBorg Config is situated in `morpheus/uniborgConfig.py`.
+The UniBorg Config is situated in `makibot/uniborgConfig.py`.
