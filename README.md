@@ -87,7 +87,7 @@ sudo su - postgres
 create a new database user (change YOUR_USER appropriately):
  ```sh
 
-createuser -P -s -e morpheus
+createuser -P -s -e defightbot
 
  ```
 This will be followed by you needing to input your password.
@@ -142,6 +142,6 @@ The __stats__() function is for retrieving module statistics, eg number of users
 
 ### UniBorg Configuration
 
-The UniBorg Config is situated in `morpheus/uniborgConfig.py`.
+The UniBorg Config is situated in `defightbot/uniborgConfig.py`.
 
 
