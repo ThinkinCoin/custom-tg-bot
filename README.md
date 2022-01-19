@@ -6,7 +6,7 @@ Simply clone the repository and run the main file:
 ```sh
 
 git clone https://github.com/ThinkinCoin/custom-tg-bot.git -b defight
-cd custom-tg-bot/defighbot
+cd custom-tg-bot/defigh
 virtualenv -p /usr/bin/python3 defightbot
 source ./defightbot/bin/activate
 pip install -r requirements.txt

@@ -19,11 +19,14 @@ from defightbot.modules.helper_funcs.chat_status import is_user_admin
 from defightbot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi {}, my name is {}! If you have any questions on how to use me, read /help - and then head to @MarieSupport.
 
+I'm a group manager bot built in python3, using the python-telegram-bot library, and am fully opensource; \
+you can find what makes me tick [here](github.com/PaulSonOfLars/tgbot)!
 
-I'm a group manager bot built develop to Makiswap to provide assistance to ours users and investors.  
-If you would like this feature to be added to your makiswap community channel, you can request it openly from the official MakiSwap group.
+Feel free to submit pull requests on github, or to contact my support group, @MarieSupport, with any bugs, questions \
+or feature requests you might have :)
+I also have a news channel, @MarieNews for announcements on new features, downtime, etc.
 
 You can find the list of available commands with /help.
 
@@ -48,12 +51,11 @@ the things I can help you with.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate! Its huge helpfully
-
-you can fund me on this easy way: 
-Just send any token to this address: 0x45B96eD5d5B18f4f865266D8371C662Cd241e6D5 (all chains) 
-
-Your contribuition its more than necessary to keep this project alive."""
+DONATE_STRING = """Heya, glad to hear you want to donate!
+It took lots of work for my creator to get me to where I am now, and every donation helps \
+motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
+(see his bio!). He's just a poor student, so every little helps!
+There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
