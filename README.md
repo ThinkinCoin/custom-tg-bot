@@ -5,13 +5,13 @@
 Simply clone the repository and run the main file:
 ```sh
 
-git clone https://github.com/ThinkinCoin/custom-tg-bot
+git clone https://github.com/ThinkinCoin/custom-tg-bot -b mazikeen
 cd custom-tg-bot
-virtualenv -p /usr/bin/python3 defightbot
-source ./defightbot/bin/activate
+virtualenv -p /usr/bin/python3 mazikeenbot
+. ./mazikeenbot/bin/activate
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m defightbot
+python3 -m mazikeenbot
 
 ```
 Setting up the bot (Read this before trying to use!):
@@ -87,7 +87,7 @@ sudo su - postgres
 create a new database user:
  ```sh
 
-createuser -P -s -e defightbot
+createuser -P -s -e mazikeen
 
  ```
 This will be followed by you needing to input your password.
@@ -95,7 +95,7 @@ This will be followed by you needing to input your password.
 create a new database table:
  ```sh
 
-createdb -O defightbot defight_db
+createdb -O mazikeen mazi_db
 
  ```
 
@@ -106,8 +106,9 @@ psql defight_db -h YOUR_HOST defightbot
 This will allow you to connect to your database via your terminal. By default, YOUR_HOST should be 0.0.0.0:5432.
 You should now be able to build your database URI. This will be:
 
+sqldbtype://mazikeen:pwd@hostname:port/mazi_db
+=======
 
-sqldbtype://username:pw@hostname:port/db_name
 
 
 Replace sqldbtype with whichever db youre using (eg postgres, mysql, sqllite, etc) repeat for your username, password, hostname (localhost?), port (5432?), and db name.

@@ -5,7 +5,7 @@ class Var(object):
     # 6 is a placeholder
     API_HASH = os.environ.get("API_HASH", "b6847777be497260207564551ff319fb")
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
-    DB_URI = os.environ.get("DATABASE_URL", postgresql://morpheus:Padrao123#@localhost:5432/morph_db)
+    DB_URI = os.environ.get("DATABASE_URL", postgresql://mazikeen:Padrao123#@localhost:5432/mazi_db)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", None)
     LOGGER = True
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
