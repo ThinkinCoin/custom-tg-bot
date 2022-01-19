@@ -13,7 +13,7 @@ class Config(object):
     LOAD = [ ]
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
     # and killed the bot. Be careful re-enabling it!
-    NO_LOAD = ['*']
+    NO_LOAD = ['rss,users,translation,backups,log_channel']
     WEBHOOK = False
     URL = None
 
