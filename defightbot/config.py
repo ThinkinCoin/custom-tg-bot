@@ -13,9 +13,9 @@ class Config(object):
     LOAD = [ ]
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
     # and killed the bot. Be careful re-enabling it!
-    NO_LOAD = ['rss']
+    NO_LOAD = ['*']
     WEBHOOK = False
-    URL = None
+    URL = https://defight.one
 
     # OPTIONAL
     SUDO_USERS = [1197776016]  # List of id's (not usernames) for users which have sudo access to the bot.
