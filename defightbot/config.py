@@ -15,7 +15,7 @@ class Config(object):
     # and killed the bot. Be careful re-enabling it!
     NO_LOAD = ['*']
     WEBHOOK = False
-    URL = https://defight.one
+    URL = None
 
     # OPTIONAL
     SUDO_USERS = [1197776016]  # List of id's (not usernames) for users which have sudo access to the bot.
