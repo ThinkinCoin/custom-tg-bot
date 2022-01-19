@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, func, distinct
 
-from makibot.modules.sql import BASE, SESSION
+from defightbot.modules.sql import BASE, SESSION
 
 
 class GroupLogs(BASE):

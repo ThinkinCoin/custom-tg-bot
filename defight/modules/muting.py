@@ -7,11 +7,11 @@ from telegram.ext import CommandHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-from makibot import dispatcher, LOGGER
-from makibot.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_admin, can_restrict
-from makibot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from makibot.modules.helper_funcs.string_handling import extract_time
-from makibot.modules.log_channel import loggable
+from defightbot import dispatcher, LOGGER
+from defightbot.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_admin, can_restrict
+from defightbot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from defightbot.modules.helper_funcs.string_handling import extract_time
+from defightbot.modules.log_channel import loggable
 
 
 @run_async

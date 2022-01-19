@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, Integer, UnicodeText, String, ForeignKey, UniqueConstraint, func
 
-from makibot import dispatcher
-from makibot.modules.sql import BASE, SESSION
+from defightbot import dispatcher
+from defightbot.modules.sql import BASE, SESSION
 
 
 class Users(BASE):

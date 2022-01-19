@@ -1,1 +1,1 @@
-web: python3 -m makibot
+web: python3 -m defightbot

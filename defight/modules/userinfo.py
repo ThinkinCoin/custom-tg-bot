@@ -6,10 +6,10 @@ from telegram import ParseMode, MAX_MESSAGE_LENGTH
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown
 
-import makibot.modules.sql.userinfo_sql as sql
-from makibot import dispatcher, SUDO_USERS
-from makibot.modules.disable import DisableAbleCommandHandler
-from makibot.modules.helper_funcs.extraction import extract_user
+import defightbot.modules.sql.userinfo_sql as sql
+from defightbot import dispatcher, SUDO_USERS
+from defightbot.modules.disable import DisableAbleCommandHandler
+from defightbot.modules.helper_funcs.extraction import extract_user
 
 
 @run_async

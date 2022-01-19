@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, UnicodeText
 
-from makibot.modules.sql import SESSION, BASE
+from defightbot.modules.sql import SESSION, BASE
 
 
 class UserInfo(BASE):

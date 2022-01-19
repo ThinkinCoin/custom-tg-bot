@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import func, distinct, Column, String, UnicodeText
 
-from makibot.modules.sql import SESSION, BASE
+from defightbot.modules.sql import SESSION, BASE
 
 
 class BlackListFilters(BASE):
