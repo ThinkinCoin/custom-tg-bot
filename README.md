@@ -84,7 +84,7 @@ change to the postgres user:
  ```sh
 sudo su - postgres
  ```
-create a new database user (change YOUR_USER appropriately):
+create a new database user:
  ```sh
 
 createuser -P -s -e defightbot
@@ -95,14 +95,13 @@ This will be followed by you needing to input your password.
 create a new database table:
  ```sh
 
-createdb -O YOUR_USER YOUR_DB_NAME
+createdb -O defightbot defight_db
 
  ```
-Change YOUR_USER and YOUR_DB_NAME appropriately.
 
 finally:
  ```sh
-psql YOUR_DB_NAME -h YOUR_HOST YOUR_USER
+psql defight_db -h YOUR_HOST defightbot
  ```
 This will allow you to connect to your database via your terminal. By default, YOUR_HOST should be 0.0.0.0:5432.
 You should now be able to build your database URI. This will be:
