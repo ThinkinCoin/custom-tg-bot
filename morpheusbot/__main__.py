@@ -22,8 +22,8 @@ PM_START_TEXT = """
 Hi {}, my name is {}! 
 
 
-I'm a group manager bot built develop to Makiswap to provide assistance to ours users and investors.  
-If you would like this feature to be added to your makiswap community channel, you can request it openly from the official MakiSwap group.
+I'm a group manager bot built develop to Think in Coin to provide assistance to ours users and investors.  
+If you would like this feature to be added to your t.me/thinkincoin community channel, you can request it openly from the official @Thinkincoin group.
 
 You can find the list of available commands with /help.
 
