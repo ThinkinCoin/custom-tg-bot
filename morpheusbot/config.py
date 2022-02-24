@@ -8,8 +8,8 @@ class Config(object):
     OWNER_USERNAME = "mzfshark"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgresql://morpheus:2l6N9JP5@35.226.179.248:3306/tic_tgbot'  # needed for any database modules
-    MESSAGE_DUMP = [*]  # needed to make sure 'save from' messages persist
+    SQLALCHEMY_DATABASE_URI = 'mysql://morpheus:2l6N9JP5@35.226.179.248:3306/tic_tgbot'  # needed for any database modules
+    MESSAGE_DUMP = ['*']  # needed to make sure 'save from' messages persist
     LOAD = [ ]
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
     # and killed the bot. Be careful re-enabling it!
